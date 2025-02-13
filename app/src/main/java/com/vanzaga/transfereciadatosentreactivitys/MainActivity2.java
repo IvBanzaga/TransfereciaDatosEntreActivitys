@@ -11,6 +11,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.util.Calendar;
+
 public class MainActivity2 extends AppCompatActivity {
 
     private TextView tv1;
@@ -29,8 +31,8 @@ public class MainActivity2 extends AppCompatActivity {
 
         // Calculamos el año de nacimiento
         int edad = Integer.parseInt(dato_edad);
-        int fechaActual = 2025;
-        int fechaNacimiento = fechaActual - edad;
+        int fechaActual = Calendar.getInstance().get(Calendar.YEAR);
+        int fechaNacimiento = (fechaActual -1) - edad;
 
         tv1.setText("Hola " + dato_recibido + " tienes " + dato_edad + " años" + "\n" + "en el año " + fechaNacimiento);
     }
@@ -41,3 +43,4 @@ public class MainActivity2 extends AppCompatActivity {
         startActivity(anterior);
     }
 }
+
