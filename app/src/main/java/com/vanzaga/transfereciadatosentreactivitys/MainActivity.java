@@ -10,7 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText editText;
+    private EditText editText, editTextEdad;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,13 +21,17 @@ public class MainActivity extends AppCompatActivity {
 
 
         editText = findViewById(R.id.txt_nombre);
+        editTextEdad = findViewById(R.id.txt_edad);
     }
 
     public void Siguiente(View view) {
 
         // Crear un Intent para iniciar la segunda actividad
+        // vamos a enviar los datos del EditText a la segunda actividad
+
         Intent segundo = new Intent(this, MainActivity2.class);
         segundo.putExtra("dato", editText.getText().toString());
+        segundo.putExtra("edad", editTextEdad.getText().toString());
         startActivity(segundo);
     }
 }

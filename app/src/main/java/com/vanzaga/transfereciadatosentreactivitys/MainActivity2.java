@@ -25,7 +25,14 @@ public class MainActivity2 extends AppCompatActivity {
         tv1 = findViewById(R.id.textView_mostrarNombre);
 
         String dato_recibido = getIntent().getStringExtra("dato");
-        tv1.setText("Hola " + dato_recibido);
+        String dato_edad = getIntent().getStringExtra("edad");
+
+        // Calculamos el año de nacimiento
+        int edad = Integer.parseInt(dato_edad);
+        int fechaActual = 2025;
+        int fechaNacimiento = fechaActual - edad;
+
+        tv1.setText("Hola " + dato_recibido + " tienes " + dato_edad + " años" + "\n" + "en el año " + fechaNacimiento);
     }
 
     public void Anterior(View view) {

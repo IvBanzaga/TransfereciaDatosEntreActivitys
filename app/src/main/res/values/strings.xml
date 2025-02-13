@@ -4,5 +4,6 @@
     <string name="btn_siguiente">Siguiente</string>
     <string name="textView_anterior">Primary Secundary</string>
     <string name="btn_anterior">Anterior</string>
-    <string name="introduce_nombre">Introduce tu nombre</string>
+    <string name="introduce_nombre">Introduce tu nombre y edad</string>
+    <string name="introduce_edad">Introduce tu edad</string>
 </resources>

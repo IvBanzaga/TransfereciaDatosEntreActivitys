@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:text="Introduce tu nombre"
+        android:text="Introduce tu nombre y edad"
         android:textColor="@color/colorAzul"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +37,7 @@
         android:id="@+id/btn_secundary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="64dp"
         android:background="@drawable/button_background"
         android:backgroundTint="#1E8E1E"
         android:onClick="Siguiente"
@@ -48,8 +48,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_nombre"
+        app:layout_constraintTop_toBottomOf="@+id/txt_edad"
         app:rippleColor="#AB1313"
         app:strokeColor="#1B1A1A" />
+
+    <EditText
+        android:id="@+id/txt_edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/introduce_edad"
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nombre" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
