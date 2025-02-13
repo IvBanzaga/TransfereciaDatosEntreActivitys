@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DosActivity</string>
+    <string name="textView_siguiente">Primary Activity</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="textView_anterior">Primary Secundary</string>
+    <string name="btn_anterior">Anterior</string>
+    <string name="introduce_nombre">Introduce tu nombre</string>
+</resources>
