@@ -3,8 +3,8 @@
 <br>
 <h1 align="center">
   <p>
-    <img src="https://github.com/IvBanzaga/TransfereciaDatosEntreActivitys/blob/main/img/captura.png" alt="Android Studio" width="45%"/>
-    <img src="https://github.com/IvBanzaga/TransfereciaDatosEntreActivitys/blob/main/img/captura2.png" alt="Android Studio" width="45%"/>
+    <img src="https://github.com/IvBanzaga/TransfereciaDatosEntreActivitys/blob/master/img/captura.png" alt="Android Studio" width="45%"/>
+    <img src="https://github.com/IvBanzaga/TransfereciaDatosEntreActivitys/blob/master/img/captura2.png" alt="Android Studio" width="45%"/>
   </p>
 </h1>
 <br>
